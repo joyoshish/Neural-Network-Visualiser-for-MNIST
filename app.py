@@ -24,7 +24,7 @@ if st.button ('Get randomized prediction for MNIST data'):
             row = 1
             col = 10
         else:
-            row = 2
+            row = 2         ####checked
             col = 16
         for i, number in enumerate(numbers):
             plt.subplot (row, col, i+1)
